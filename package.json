@@ -1,0 +1,15 @@
+{
+  "name": "cstm-server",
+  "version": "0.1.0",
+  "description": "cstm server",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "node src/index.js serve --port 1337"
+  },
+  "author": "tags",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
+  }
+}

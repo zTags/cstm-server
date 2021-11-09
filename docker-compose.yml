@@ -1,0 +1,9 @@
+version: '3'
+services:
+  cstm-server:
+    build: .
+    ports:
+      - "1337:1337"
+    volumes:
+      - "./packages:/packages"
+      - "./accounts:/accounts"
